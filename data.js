@@ -9,16 +9,7 @@
         "available_quantity": 10,
         "details_description": "This super Sports car toy is perfect for young adventurers. It comes with flashing lights, sound effects, and a remote control.",
         "category_id" : 0,
-        "sub_category": [
-            { "name": "Luxury Sports Cars",
-                "img_url" : "https://m.media-amazon.com/images/I/81ZwS4MhuoL._AC_SX425_.jpg"
-             },
-            { "name": "Super Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/81ZwS4MhuoL._AC_SX425_.jpg"
-        },
-            { "name": "Race Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/81ZwS4MhuoL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Luxury Sports Cars"
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/917sN7ypBAL._AC_SX425_.jpg",
@@ -30,14 +21,7 @@
         "available_quantity": 5,
         "details_description": "Let your child's imagination soar with this enchanting princess castle. It features multiple rooms, a drawbridge, and beautifully detailed decorations.",
         "category_id" : 1,
-        "sub_category": [
-            { "name": "Excavators",
-            "img_url" : "https://m.media-amazon.com/images/I/917sN7ypBAL._AC_SX425_.jpg" },
-            { "name": "Dump Trucks",
-            "img_url" : "https://m.media-amazon.com/images/I/917sN7ypBAL._AC_SX425_.jpg" },
-            { "name": "Bulldozers",
-            "img_url" : "https://m.media-amazon.com/images/I/917sN7ypBAL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Excavators"
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/912ZSagjzAL._AC_SX425_.jpg",
@@ -49,14 +33,7 @@
         "available_quantity": 8,
         "details_description": "Uncover the mysteries of the prehistoric world with this dinosaur excavation kit. Dig and discover realistic dinosaur fossils.",
         "category_id" : 2,
-        "sub_category": [
-            { "name": "Police Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/912ZSagjzAL._AC_SX425_.jpg" },
-            { "name": "Fire Trucks",
-            "img_url" : "https://m.media-amazon.com/images/I/912ZSagjzAL._AC_SX425_.jpg" },
-            { "name": "Ambulances",
-            "img_url" : "https://m.media-amazon.com/images/I/912ZSagjzAL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Police Cars"
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/61Vqt-o15yS._AC_SX425_.jpg",
@@ -68,14 +45,7 @@
         "available_quantity": 9,
         "details_description": "Race into action with this remote-controlled car. It has a durable design, high-speed capabilities, and responsive controls.",
         "category_id" : 0,
-        "sub_category": [
-            { "name": "Luxury Sports Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61Vqt-o15yS._AC_SX425_.jpg" },
-            { "name": "Super Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61Vqt-o15yS._AC_SX425_.jpg" },
-            { "name": "Race Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61Vqt-o15yS._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Luxury Sports Cars"
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/5196uS8qKgL._SX300_SY300_QL70_FMwebp_.jpg",
@@ -87,14 +57,7 @@
         "available_quantity": 12,
         "details_description": "Spark your child's creativity with this building blocks set. It includes a variety of colorful blocks for endless construction possibilities.",
         "category_id" : 0,
-        "sub_category": [
-            { "name": "Luxury Sports Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/5196uS8qKgL._SX300_SY300_QL70_FMwebp_.jpg" },
-            { "name": "Super Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/5196uS8qKgL._SX300_SY300_QL70_FMwebp_.jpg" },
-            { "name": "Race Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/5196uS8qKgL._SX300_SY300_QL70_FMwebp_.jpg" }
-        ]
+        "sub_category": "Luxury Sports Cars"
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/81wLuRvtMFL._AC_SX425_.jpg",
@@ -106,14 +69,7 @@
         "available_quantity": 12,
         "details_description": "Spark your child's creativity with this building blocks set. It includes a variety of colorful blocks for endless construction possibilities.",
         "category_id" : 0,
-        "sub_category": [
-            { "name": "Luxury Sports Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/81wLuRvtMFL._AC_SX425_.jpg" },
-            { "name": "Super Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/81wLuRvtMFL._AC_SX425_.jpg" },
-            { "name": "Race Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/81wLuRvtMFL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Luxury Sports Cars"
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/51Shwit2bkL._AC_SX425_.jpg",
@@ -125,14 +81,7 @@
         "available_quantity": 20,
         "details_description": "Challenge your mind with this engaging puzzle game. Solve intricate puzzles and test your problem-solving skills.",
         "category_id" : 1,
-        "sub_category": [
-            { "name": "Excavators",
-            "img_url" : "https://m.media-amazon.com/images/I/51Shwit2bkL._AC_SX425_.jpg" },
-            { "name": "Dump Trucks",
-            "img_url" : "https://m.media-amazon.com/images/I/51Shwit2bkL._AC_SX425_.jpg" },
-            { "name": "Bulldozers",
-            "img_url" : "https://m.media-amazon.com/images/I/51Shwit2bkL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Excavators"
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg",
@@ -144,14 +93,7 @@
         "available_quantity": 20,
         "details_description": "Challenge your mind with this engaging puzzle game. Solve intricate puzzles and test your problem-solving skills.",
         "category_id" : 1,
-        "sub_category": [
-            { "name": "Excavators",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Dump Trucks",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Bulldozers",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Excavators"
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/81CgQdOT-8L._AC_SX425_.jpg",
@@ -163,14 +105,7 @@
         "available_quantity": 20,
         "details_description": "Challenge your mind with this engaging puzzle game. Solve intricate puzzles and test your problem-solving skills.",
         "category_id" : 1,
-        "sub_category": [
-            { "name": "Excavators",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Dump Trucks",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Bulldozers",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Excavators"
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/912ZSagjzAL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
@@ -182,14 +117,7 @@
         "available_quantity": 20,
         "details_description": "Challenge your mind with this engaging puzzle game. Solve intricate puzzles and test your problem-solving skills.",
         "category_id" : 2,
-        "sub_category": [
-            { "name": "Police Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Fire Trucks",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Ambulances",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Police Cars"
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/81ZwS4MhuoL._AC_SX425_.jpg",
@@ -201,14 +129,7 @@
         "available_quantity": 10,
         "details_description": "This super Sports car toy is perfect for young adventurers. It comes with flashing lights, sound effects, and a remote control.",
         "category_id" : 0,
-        "sub_category": [
-            { "name": "Luxury Sports Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Super Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Race Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Luxury Sports Cars"
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/917sN7ypBAL._AC_SX425_.jpg",
@@ -220,14 +141,7 @@
         "available_quantity": 5,
         "details_description": "Let your child's imagination soar with this enchanting princess castle. It features multiple rooms, a drawbridge, and beautifully detailed decorations.",
         "category_id" : 1,
-        "sub_category": [
-            { "name": "Excavators",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Dump Trucks",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Bulldozers",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Excavators"
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/912ZSagjzAL._AC_SX425_.jpg",
@@ -239,14 +153,7 @@
         "available_quantity": 8,
         "details_description": "Uncover the mysteries of the prehistoric world with this dinosaur excavation kit. Dig and discover realistic dinosaur fossils.",
         "category_id" : 2,
-        "sub_category": [
-            { "name": "Police Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Fire Trucks",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Ambulances",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Police Cars"
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/61Vqt-o15yS._AC_SX425_.jpg",
@@ -258,14 +165,7 @@
         "available_quantity": 9,
         "details_description": "Race into action with this remote-controlled car. It has a durable design, high-speed capabilities, and responsive controls.",
         "category_id" : 0,
-        "sub_category": [
-            { "name": "Luxury Sports Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Super Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Race Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Luxury Sports Cars "
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/5196uS8qKgL._SX300_SY300_QL70_FMwebp_.jpg",
@@ -277,14 +177,7 @@
         "available_quantity": 12,
         "details_description": "Spark your child's creativity with this building blocks set. It includes a variety of colorful blocks for endless construction possibilities.",
         "category_id" : 0,
-        "sub_category": [
-            { "name": "Luxury Sports Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Super Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Race Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Luxury Sports Cars" 
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/81wLuRvtMFL._AC_SX425_.jpg",
@@ -296,14 +189,7 @@
         "available_quantity": 12,
         "details_description": "Spark your child's creativity with this building blocks set. It includes a variety of colorful blocks for endless construction possibilities.",
         "category_id" : 0,
-        "sub_category": [
-            { "name": "Luxury Sports Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Super Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Race Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Luxury Sports Cars" 
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/51Shwit2bkL._AC_SX425_.jpg",
@@ -315,14 +201,7 @@
         "available_quantity": 20,
         "details_description": "Challenge your mind with this engaging puzzle game. Solve intricate puzzles and test your problem-solving skills.",
         "category_id" : 1,
-        "sub_category": [
-            { "name": "Excavators",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Dump Trucks",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Bulldozers",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Excavators"
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg",
@@ -334,14 +213,7 @@
         "available_quantity": 20,
         "details_description": "Challenge your mind with this engaging puzzle game. Solve intricate puzzles and test your problem-solving skills.",
         "category_id" : 1,
-        "sub_category": [
-            { "name": "Excavators",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Dump Trucks",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Bulldozers",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Excavators" 
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/81CgQdOT-8L._AC_SX425_.jpg",
@@ -353,14 +225,7 @@
         "available_quantity": 20,
         "details_description": "Challenge your mind with this engaging puzzle game. Solve intricate puzzles and test your problem-solving skills.",
         "category_id" : 1,
-        "sub_category": [
-            { "name": "Excavators",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Dump Trucks",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Bulldozers",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Excavators"
     },
     {
         "img_url": "https://m.media-amazon.com/images/I/912ZSagjzAL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
@@ -372,13 +237,6 @@
         "available_quantity": 20,
         "details_description": "Challenge your mind with this engaging puzzle game. Solve intricate puzzles and test your problem-solving skills.",
         "category_id" : 2,
-        "sub_category": [
-            { "name": "Police Cars",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Fire Trucks",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" },
-            { "name": "Ambulances",
-            "img_url" : "https://m.media-amazon.com/images/I/61KTa66QljL._AC_SX425_.jpg" }
-        ]
+        "sub_category": "Police Cars"
     }
 ]
