@@ -27,31 +27,49 @@ async function run() {
 
   try {
     // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
+    // await client.connect();
 
     // DB collection
     const toyCollection = client.db('toyMarketplaceDB').collection('toys');
     const myToysCollection = client.db('toyMarketplaceDB').collection('myToys')
     const categoriesCollection = client.db('categoriesDB').collection('categories');
 
+  
+    // set rout for search
+    const indexKeys = {name: 1, subCategory: 1}
+    const indexOptions = {name: "nameSubCategory"};
+
+    const result = await toyCollection.createIndex(indexKeys, indexOptions)
+
+    app.get('/searchByName&subCategory/:text', async(req, res) => {
+      const searchText = req.params.text;
+      const result = await toyCollection.find({
+        $or: [
+          {seller_name: {$regex: searchText, $options: "i"}},
+          {sub_category: {$regex: searchText, $options: "i"}}
+        ]
+      }).toArray()
+      res.send(result)
+    })
+
 
     // get all toys
-    app.get('/toys', async(req, res)=> {
+    app.get('/toys', async (req, res) => {
       const cursor = await toyCollection.find().toArray();
       res.send(cursor)
     })
 
     // get specific toy
-    app.get('/toys/:id', async(req, res) => {
+    app.get('/toys/:id', async (req, res) => {
       const id = req.params.id;
-      const query = {_id: new ObjectId(id)}
+      const query = { _id: new ObjectId(id) }
       const result = await toyCollection.findOne(query);
       res.send(result)
     })
 
 
     // post toy
-    app.post('/my-toys', async(req, res)=> {
+    app.post('/my-toys', async (req, res) => {
       const item = req.body;
       const result = await myToysCollection.insertOne(item)
       res.send(result)
@@ -60,50 +78,50 @@ async function run() {
 
 
     // get my toys use email
-    app.get('/my-toys', async(req, res)=> {
+    app.get('/my-toys', async (req, res) => {
       let query = {};
-            if (req.query?.seller_email) {
-                query = { seller_email: req.query.seller_email }
-            }
+      if (req.query?.seller_email) {
+        query = { seller_email: req.query.seller_email }
+      }
       const result = await myToysCollection.find(query).toArray()
       res.send(result)
     })
 
     // delete my toy
-    app.delete('/my-toys/:id', async(req, res)=> {
+    app.delete('/my-toys/:id', async (req, res) => {
       const id = req.params.id;
-      const query = {_id: new ObjectId(id)}
+      const query = { _id: new ObjectId(id) }
       const result = await myToysCollection.deleteOne(query)
       res.send(result)
     })
 
     // get my-toy use id
-    app.get('/my-toys/:id', async(req, res)=> {
+    app.get('/my-toys/:id', async (req, res) => {
       const id = req.params.id;
-      const query = {_id: new ObjectId(id)}
+      const query = { _id: new ObjectId(id) }
       const result = await myToysCollection.findOne(query)
       res.send(result)
     })
 
     // update my-toy
-    app.put('/my-toys/:id', async(req, res)=> {
+    app.put('/my-toys/:id', async (req, res) => {
       const id = req.params.id;
-      const filter = {_id: new ObjectId(id)}
-      const options = {upsert : true}
+      const filter = { _id: new ObjectId(id) }
+      const options = { upsert: true }
       const updatedInfo = req.body;
       const update = {
         $set: {
           price: updatedInfo.price,
-          available_quantity:  updatedInfo.quantity,
-          details_description : updatedInfo.description
+          available_quantity: updatedInfo.quantity,
+          details_description: updatedInfo.description
         }
       }
       const result = await myToysCollection.updateOne(filter, update, options)
       res.send(result)
-      
+
     })
 
-    
+
 
 
 
@@ -121,13 +139,13 @@ run().catch(console.log);
 
 
 // first get for tasting
-app.get('/', (req, res)=> {
-    res.send('This is toy marketplace server')
+app.get('/', (req, res) => {
+  res.send('This is toy marketplace server')
 })
 
 // listing
 app.listen(port, () => {
-    console.log(`This server is running on: ${port}`)
+  console.log(`This server is running on: ${port}`)
 })
 
 // await client.connect
