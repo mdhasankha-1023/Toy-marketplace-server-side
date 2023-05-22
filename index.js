@@ -24,12 +24,14 @@ const client = new MongoClient(uri, {
 });
 
 async function run() {
+
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
 
     // DB collection
     const toyCollection = client.db('toyMarketplaceDB').collection('toys');
+    const myToysCollection = client.db('toyMarketplaceDB').collection('myToys')
     const categoriesCollection = client.db('categoriesDB').collection('categories');
 
 
@@ -47,13 +49,24 @@ async function run() {
       res.send(result)
     })
 
+
     // post toy
-    app.post('/toys', async(req, res)=> {
+    app.post('/my-toys', async(req, res)=> {
       const item = req.body;
-      console.log(item)
-      const result = await toyCollection.insertOne(item)
+      const result = await myToysCollection.insertOne(item)
       res.send(result)
 
+    })
+
+
+    // get my toys use email
+    app.get('/my-toys', async(req, res)=> {
+      let query = {};
+            if (req.query?.seller_email) {
+                query = { seller_email: req.query.seller_email }
+            }
+      const result = await myToysCollection.find(query).toArray()
+      res.send(result)
     })
 
     
@@ -82,4 +95,7 @@ app.get('/', (req, res)=> {
 app.listen(port, () => {
     console.log(`This server is running on: ${port}`)
 })
+
+// await client.connect
+// await clent.db
 
