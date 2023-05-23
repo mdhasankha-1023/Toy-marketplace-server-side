@@ -27,30 +27,32 @@ async function run() {
 
   try {
     // Connect the client to the server	(optional starting in v4.7)
-    // await client.connect();
+
 
     // DB collection
     const toyCollection = client.db('toyMarketplaceDB').collection('toys');
     const myToysCollection = client.db('toyMarketplaceDB').collection('myToys')
-    const categoriesCollection = client.db('categoriesDB').collection('categories');
+    const categoriesCollection = client.db('toyMarketplaceDB').collection('categories');
 
-  
+
     // set rout for search
-    const indexKeys = {name: 1, subCategory: 1}
-    const indexOptions = {name: "nameSubCategory"};
+    const indexKeys = { name: 1, subCategory: 1 }
+    const indexOptions = { name: "nameSubCategory" };
 
     const result = await toyCollection.createIndex(indexKeys, indexOptions)
 
-    app.get('/searchByName&subCategory/:text', async(req, res) => {
+    app.get('/searchByName&subCategory/:text', async (req, res) => {
       const searchText = req.params.text;
       const result = await toyCollection.find({
         $or: [
-          {seller_name: {$regex: searchText, $options: "i"}},
-          {sub_category: {$regex: searchText, $options: "i"}}
+          { seller_name: { $regex: searchText, $options: "i" } },
+          { sub_category: { $regex: searchText, $options: "i" } }
         ]
       }).toArray()
       res.send(result)
     })
+
+
 
 
     // get all toys
@@ -120,9 +122,6 @@ async function run() {
       res.send(result)
 
     })
-
-
-
 
 
     // Send a ping to confirm a successful connection
